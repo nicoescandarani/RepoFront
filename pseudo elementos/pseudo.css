@@ -1,0 +1,24 @@
+/* pseudo.css */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1::before {
+	/* content: "Hola"; */
+	/* content: url(ruta-imagen.png); */
+	content: "\26C4";
+}
+
+h1::after {
+	/* content: "Chau"; */
+	content: "";
+	display: inline-block;
+	background-color: red;
+	width: 50px;
+	height: 50px;
+}

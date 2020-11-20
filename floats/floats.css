@@ -1,0 +1,63 @@
+/* div {
+	height: 300px;
+	width: 50%;
+}
+
+.primero {
+	background-color: blue;
+	float: left;
+}
+
+.segundo {
+	background-color: red;
+	float: left;
+}
+
+.tercero {
+	background-color: green;
+	clear: both;
+	float: left;
+}
+
+.cuarto {
+	background-color: yellow;
+	float: left;
+} */
+
+
+
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.cabecera {
+	background-color: pink;
+	height: 100px;
+}
+.izquierda {
+	background-color: skyblue;
+	height: 400px;
+	width: 20%;
+	float: left;
+}
+.medio {
+	background-color: yellow;
+	height: 400px;
+	width: 40%;
+	/* Todos a la izquierda menos el último porque no entra. */
+	float: left;
+}
+.derecha {
+	background-color: rebeccapurple;
+	height: 400px;
+	width: 40%;
+	float: right;
+}
+.pie {
+	background-color: orange;
+	height: 50px;
+	/* "Limpiar" flotaciones para que funcione bien. */
+	clear: both;
+}

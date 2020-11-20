@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 50%;
+}
+
+.container--absolute {
+    background-color: blue;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+}
+
+.container--sticky {
+    position: relative;
+    height: 200vh;
+    background-color: red;
+}
+
+/* Los 50px del top son para que arranque a bajar desde los 50px. */
+
+.sticky {
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+    left: 0;
+}
+
+.fixed {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    background-color: green;
+    height: 80px;
+    width: 80px;
+}

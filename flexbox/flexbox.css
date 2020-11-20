@@ -1,0 +1,38 @@
+/* columnas.css */
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.cabecera {
+	background-color: pink;
+	height: 100px;
+}
+
+.medio-wrapper {
+	display: flex;
+}
+
+.izquierda {
+	background-color: skyblue;
+	height: 400px;
+	width: 20%;
+}
+
+.medio {
+	background-color: yellow;
+	height: 400px;
+	width: 40%;
+}
+
+.derecha {
+	background-color: rebeccapurple;
+	height: 400px;
+	width: 40%;
+}
+
+.pie {
+	background-color: orange;
+	height: 50px;
+}
