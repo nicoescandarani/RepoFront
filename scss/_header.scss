@@ -1,0 +1,18 @@
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+
+    ul {
+        list-style: none;
+        color: $rojo;
+
+        li {
+            font-size: $fonsi;
+
+            &:last-of-type {
+                margin: 0;
+                border-radius: 40px;
+            }
+        }
+    }
+}
