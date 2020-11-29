@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 800vh;
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* div {
+    height: 200px;
+    width: 50%;
+} */
+
+.primero {
+    background-color: red;
+    float: left;
+}
+
+.segundo {
+    background-color: blue;
+    float: left;
+}
+
+.tercero {
+    background-color: green;
+    clear: both;
+    float: left;
+}
+
+.cuarto {
+    background-color: yellow;
+    float: left;
+}
+
+
+
+
+div {
+    height: 200px;
+}
+
+.cabecera {
+    width: 100%;
+    background-color: red;
+}
+
+.medio-izquierda {
+    width: 20%;
+    background-color: blue;
+    float: left;
+}
+
+.medio {
+    width: 50%;
+    background-color: green;
+    float: left;
+}
+
+.medio-derecha {
+    width: 30%;
+    background-color: yellow;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    background-color: blueviolet;
+    clear: both;
+    float: left;
+}
+
+.overflow {
+    height: 200px;
+    width: 200px;
+}
+
+.overflow img {
+    height: 100%;
+}
+
+.container-position {
+    position: relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* Guarda el overflow hidden. */
+}
+
+.container-position img {
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    right: -50px;
+}
+
+.fixed-container {
+    position: relative; /* No lo afecta.*/
+}
+
+.position-fixed {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+}
+
+.sticky-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    height: 800vh;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 50%;
+    left: 0;
+}
+
+.position-sticky img {
+    height: 100px;
+}
