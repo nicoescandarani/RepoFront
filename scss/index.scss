@@ -1,5 +1,8 @@
 @import 'variables'; // Las variables siempre arriba.
+@import 'breakpoints';
+@import 'mixins';
 @import 'reset';
 @import 'header';
+@import 'cajitas';
 
 // Generalmente los archivos css no se incluyen en el repo porque el compilador hace lo suyo y listo.

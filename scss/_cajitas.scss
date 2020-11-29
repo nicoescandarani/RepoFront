@@ -1,0 +1,16 @@
+.cajitas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caja {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+
+    @include media($tablet) {
+        background-color: blue;
+    }
+}
