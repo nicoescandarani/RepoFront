@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.menu {
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    padding: 40px 20px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: flex;
+}
+
+.container-wrapper {
+    width: 80%;
+    border: 1px solid black;
+    padding: 60px 20px;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.contenido {
+    text-align: center;
+    padding: 60px;
+}
+
+.foto {
+    border: 1px solid black;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.texto {
+    border: 1px solid black;
+    width: 70%;
+}
+
+/* Flex Wrap */
+
+.flex-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */ /* Esta viene por defecto. */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.item {
+    width: 200px;
+    border: 1px solid black;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellow;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start; */ /* Esta viene por defecto. */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    align-items: stretch; /* Esta viene por defecto. */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    height: 400px;
+}
+
+nav {
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+}
+
+.article {
+    background-color: yellowgreen;
+    width: 60%;
+    height: 100%;
+}
+
+.aside {
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+}
+
+footer {
+    background-color: yellow;
+    height: 150px;
+}
