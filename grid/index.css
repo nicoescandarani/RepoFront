@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    /* 
+    - El auto-fit llena todo el espacio siempre.
+    - El auto-fill llena solamente lo necesario con el mínimo
+    - El minmax recibe dos parametros. Uno indica el mínimo width y el otro el máximo.
+        Se suele usar 1fr para el máximo. Le estás diciendo que llene o que tenga que llenar.
+        Gracias al minmax logra colapsar los ítems cuando es necesario. Cuando no entran gracias mínimo width.
+    */
+
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.item {
+    border: 2px solid violet;
+}
+
+/* span {{un numero para determinar un tamaño del item.}} */
+.especial {
+    background-color: blue;
+    color: white;
+    /* Lo agranda una cantidad de veces a lo ancho */
+    grid-column: span 4;
+    /* Lo empuja hacia la derecha una cantidad de veces. Siemrpe en fr. */
+    grid-column-start: 2;
+}
+
+.distinto {
+    /* Lo agranda una cantidad de veces a lo ancho */
+    grid-column: span 3;
+    /* Lo agranda una cantidad de veces a lo alto */
+    grid-row: span 2;
+}
+
+@media (max-width: 760px) {
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+}
